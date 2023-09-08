@@ -129,6 +129,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensor1: {fileID: 0}
   sensor2: {fileID: 0}
-  sensor3: {fileID: 0}
-  speed_1: 3
-  speed_2: 2
+  speed_1: 4
+  speed_2: 3

@@ -21,20 +21,16 @@ public class Btn_Reset : MonoBehaviour
     public void Reset()
     {
         GameObject cube = GameObject.Find("CubeBlue(Clone)");
-        if (cube != null)
-        {
-            Destroy(cube);
-        }
+        
         GameObject cube2 = GameObject.Find("CubeRed(Clone)");
-        if (cube != null)
-        {
-            Destroy(cube2);
-        }
+        
         GameObject cube3 = GameObject.Find("CubeGreen(Clone)");
-        if (cube != null)
-        {
-            Destroy(cube3);
-        }
+
+        Destroy(cube);
+        
+        Destroy(cube2);
+        Destroy(cube3);
+        
     }
     
 }
