@@ -3,7 +3,7 @@ clc;
 clear all;
 close all;
 name = "Matlab";
-Client = TCPInit('127.0.0.1',55005,name);
+Client = TCPInit('127.0.0.1',55015,name);
 gripping_point = 0.056;
 
 %gripping_point = 0.1978;
@@ -17,7 +17,7 @@ L(6) = Link([0 0 0 0 0]);
 L(1).qlim = [0.04 0.099];%关节角度限制
 L(2).qlim = [-105 115]/180*pi;
 L(3).qlim = [-75 205]/180*pi;
-L(4).qlim = [0 90]/180*pi;
+L(4).qlim = [0 180]/180*pi;
 
 robot = SerialLink(L);%连接连杆
 joints = [0.09 0 0 0 0 0];%指定的关节角
@@ -49,7 +49,7 @@ color = color_check(Client); % function for detecting colors
     
     if color == 1 % Red sorting
         X2 = 8.26/100;  % Z
-        Y2 = -2.5/100; % -X
+        Y2 = -2.1/100; % -X
         Z2 = 1/100;  % Y
     elseif color == 2 % Green sorting
         X2 = 8.26/100;  % Z
