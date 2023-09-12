@@ -3,5 +3,5 @@
 The simulation environment was built with Unity ... (Game screen resolution ...)
 
 Unity Project: UnityProgram/Assets/Scenes/... \
-Matlab Project: MatlabProgram/... /part3_gai3.m
+Matlab Project: MatlabProgram/... /part3_gai3.m\
 Video link - ...www.
