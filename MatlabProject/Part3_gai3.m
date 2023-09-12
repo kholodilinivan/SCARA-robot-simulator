@@ -44,6 +44,31 @@ for a = 1 : length(q)
 end
 
 
+
+
+
+% take object
+Grab = 1;
+func_grab(Client, Grab);
+func_data(Client,q,b-1);
+pause(2);
+
+%将方块移动到摄像头上
+X3 = 3.15/100;  % Z
+Y3 = -4.07/100; % -X
+Z3 = 2/100;  % Y 
+T3 = transl(X3, Y3, Z3)* trotz(180);%根据给定终点，得到终点位姿
+qf3 = robot.ikine(T3,'mask',[1 1 1 1 0 0]);
+grab = 2;
+b = 1;
+q = jtraj(qi1,qf3,t);
+ %robot.plot(q);
+func_grab(Client, Grab);
+for a = 1 : length(q)
+    func_data(Client, q, b); 
+    b=b+1;
+end
+
 %识别颜色
 color = color_check(Client); % function for detecting colors
     
@@ -63,23 +88,6 @@ color = color_check(Client); % function for detecting colors
     
     pause(1);
 
-
-% take object
-Grab = 1;
-func_grab(Client, Grab);
-func_data(Client,q,b-1);
-pause(2);
-%back to initial pos
-grab = 2;
-b = 1;
-q = jtraj(qi1,qf1,t);
- %robot.plot(q);
-func_grab(Client, Grab);
-for a = 1 : length(q)
-    func_data(Client, q, b); 
-    b=b+1;
-end
-
 %机械手臂将蓝色方块放到指定位置
 %起点不变，
 %X2 = 8.26/100;  % Z
@@ -90,7 +98,7 @@ qi2 = robot.ikine(T2,'mask',[1 1 1 1 0 0]);%根据终点点位姿，
 % 得到终点关节角.'mask' 参数是一个掩码向量，用于指定执行逆解运动学时要考虑的自由度。
 % 在这里，[1 1 1 1 0 0] 表示机器人的前四个自由度（平移方向）是可用的，后两个自由度（旋转方向）是被限制的。
 qf1 = [0.09 0 0 0 0 0];%机器人初始位置
-q = jtraj(qf1,qi2,t);
+q = jtraj(qf3,qi2,t);
 b = 1;
 for a = 1 : length(q)
     func_data(Client, q, b);

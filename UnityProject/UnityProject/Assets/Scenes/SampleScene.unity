@@ -1298,7 +1298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391392130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.0253, z: -0.0002}
+  m_LocalPosition: {x: 0, y: -0.0253, z: -0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1628,7 +1628,6 @@ Transform:
   - {fileID: 5280022464640222085}
   - {fileID: 8597305225111569562}
   - {fileID: 391392131}
-  - {fileID: 1719264101}
   m_Father: {fileID: 6319767990213039891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2776,6 +2775,7 @@ Transform:
   - {fileID: 190295603}
   - {fileID: 534378382}
   - {fileID: 179705581}
+  - {fileID: 1719264101}
   m_Father: {fileID: 6458408100656037608}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0.962, z: 0}
@@ -4492,14 +4492,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719264100}
-  m_LocalRotation: {x: 0.7291702, y: 0.024026558, z: -0.02648397, w: 0.68339753}
-  m_LocalPosition: {x: 0.0004, y: -0.0091, z: 0.0007}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.7070442, y: 0.009409908, z: 0.009409908, w: 0.7070442}
+  m_LocalPosition: {x: 4.07, y: -0.32, z: 3.15}
+  m_LocalScale: {x: 99.99997, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 465396291}
+  m_Father: {fileID: 911370420}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 93.715, y: 5.121002, z: 1.0249939}
+  m_LocalEulerAnglesHint: {x: -90, y: 0.5, z: 1.0249939}
 --- !u!81 &1719264102
 AudioListener:
   m_ObjectHideFlags: 0
@@ -4533,7 +4533,7 @@ Camera:
     height: 1
   near clip plane: 0.28
   far clip plane: 1000
-  field of view: 21
+  field of view: 18
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -12781,7 +12781,7 @@ Camera:
   field of view: 26.991467
   orthographic: 0
   orthographic size: 0.0023999608
-  m_Depth: 0
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -17792,7 +17792,7 @@ GameObject:
   - component: {fileID: 4062842248640314793}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
