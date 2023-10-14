@@ -12,6 +12,6 @@ Project Introduction: This project uses Arduino development board to connect the
 Unity Project: SCARA-robot-simulator\SCARA Robot physical model and virtual model\UnityProject/... \
 Matlab Project: SCARA-robot-simulator\SCARA Robot physical model and virtual model\MatlabProject\Part3_Arduino3_vision4m\
 Arduino Project: : SCARA-robot-simulator\SCARA Robot physical model and virtual model\Arduino\
-Video link - https://https://www.youtube.com/watch?v=-O1MSYX4tlQ&t=52s\
+Video link - https://www.youtube.com/watch?v=-O1MSYX4tlQ&t=52s\
 
 
