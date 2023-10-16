@@ -14,7 +14,7 @@ Project Introduction: This project uses Arduino development board to connect the
 ![](https://github.com/kholodilinivan/SCARA-robot-simulator/blob/main/Img/11.png)
 
 #### Robot physical model:
-![](https://github.com/kholodilinivan/SCARA-robot-simulator/blob/main/Img/22.png)
+![](https://github.com/kholodilinivan/SCARA-robot-simulator/blob/main/Img/22.jpg)
 
 Unity Project: SCARA-robot-simulator/SCARArobotDigitalTwin/UnityProject/... \
 Matlab Project: SCARA-robot-simulator/SCARArobotDigitalTwin/MatlabProject/Part3_Arduino3_vision4m\
