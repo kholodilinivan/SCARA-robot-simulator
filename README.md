@@ -5,6 +5,7 @@ The simulation environment was built with Unity ... (Game screen resolution ...)
 Unity Project: UnityProgram/Assets/Scenes/... \
 Matlab Project: MatlabProgram/... /part3_gai3.m\
 Youtube Video link - https://www.youtube.com/watch?v=ezYb0tRkNaM \
+Видео пояснения на русском - https://youtu.be/URnJmjmQO50 \
 Bilibili Video link-https://www.bilibili.com/video/BV1Uw411v771/?spm_id_from=333.999.0.0&vd_source=e0a6a568a12a54c6b8cab40567343784 
 
 # SCARA Synchronous running experiments of robot physical model and virtual model
@@ -22,6 +23,5 @@ Unity Project: SCARA-robot-simulator/SCARArobotDigitalTwin/UnityProject/... \
 Matlab Project: SCARA-robot-simulator/SCARArobotDigitalTwin/MatlabProject/Part3_Arduino3_vision4m\
 Arduino Project: SCARA-robot-simulator/SCARArobotDigitalTwin/Arduino\
 Youtube Video link - https://www.youtube.com/watch?v=-O1MSYX4tlQ&t=52s \
+Видео пояснения на русском - https://youtu.be/BiPfc5yABLg \
 Bilibili Video link-https://www.bilibili.com/video/BV1Lw411y7YS/?spm_id_from=333.999.0.0&vd_source=e0a6a568a12a54c6b8cab40567343784 
-
-
