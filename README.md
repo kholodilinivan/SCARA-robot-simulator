@@ -6,6 +6,23 @@ If you find this project or our work helpful in your research, please consider c
 > 
 > Zhang, Z., et al. "Construction Method of a Digital-Twin Simulation System for SCARA Robots Based on Modular Communication." *Sensors*, vol. 24, no. 22, 2024, p. 7183. [https://www.mdpi.com/1424-8220/24/22/7183](https://www.mdpi.com/1424-8220/24/22/7183)
 
+
+# Related Projects
+
+## Structured-light-extraction-method
+Laser stripe extraction and structured-light image processing methods for robotic vision systems.
+
+GitHub Repository:  
+https://github.com/ZhangZihan10/B-Structured-light-extraction-method
+
+---
+
+## High-Precision Target Positioning via Multi-View Fisheye Cameras and Structured Light
+A binocular omnidirectional vision positioning system using fisheye cameras and structured light for high-precision target localization.
+
+GitHub Repository:  
+https://github.com/ZhangZihan10/Binocular-omnidirectional-vision-positioning-system
+
 Unity Project: UnityProgram/Assets/Scenes/... \
 Matlab Project: MatlabProgram/... /part3_gai3.m\
 Youtube Video link - https://www.youtube.com/watch?v=ezYb0tRkNaM \
