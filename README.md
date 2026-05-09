@@ -6,6 +6,11 @@ If you find this project or our work helpful in your research, please consider c
 > 
 > Zhang, Z., et al. "Construction Method of a Digital-Twin Simulation System for SCARA Robots Based on Modular Communication." *Sensors*, vol. 24, no. 22, 2024, p. 7183. [https://www.mdpi.com/1424-8220/24/22/7183](https://www.mdpi.com/1424-8220/24/22/7183)
 
+Unity Project: UnityProgram/Assets/Scenes/... \
+Matlab Project: MatlabProgram/... /part3_gai3.m\
+Youtube Video link - https://www.youtube.com/watch?v=ezYb0tRkNaM \
+Видео пояснения на русском - https://youtu.be/URnJmjmQO50 \
+Bilibili Video link-https://www.bilibili.com/video/BV1Uw411v771/?spm_id_from=333.999.0.0&vd_source=e0a6a568a12a54c6b8cab40567343784 
 
 # Related Projects
 
@@ -25,12 +30,6 @@ https://github.com/ZhangZihan10/Binocular-omnidirectional-vision-positioning-sys
 
 ---
 
-
-Unity Project: UnityProgram/Assets/Scenes/... \
-Matlab Project: MatlabProgram/... /part3_gai3.m\
-Youtube Video link - https://www.youtube.com/watch?v=ezYb0tRkNaM \
-Видео пояснения на русском - https://youtu.be/URnJmjmQO50 \
-Bilibili Video link-https://www.bilibili.com/video/BV1Uw411v771/?spm_id_from=333.999.0.0&vd_source=e0a6a568a12a54c6b8cab40567343784 
 
 # SCARA Synchronous running experiments of robot physical model and virtual model
 Project Introduction: This project uses Arduino development board to connect the SCARA robot arm. In the experiment, MATLAB is used as the control terminal to control the movement of the physical model and the virtual model at the same time. Adding a visual sensor to the physical model allows the robot arm to identify and classify blocks of different colors. The virtual model is established in Unity and can display the motion data of each joint of the robot arm in real time. 
